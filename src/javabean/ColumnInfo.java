@@ -2,19 +2,13 @@ package javabean;
 
 public class ColumnInfo {
 
-    /**
-     * 字段名
-     */
+    // columnname
     String name;
 
-    /**
-     * 字段类型
-     */
+    // columnType
     String type;
 
-    /**
-     * 字段键信息
-     */
+    // columnInfo for this
     int keyType;
 
     public ColumnInfo(){}
